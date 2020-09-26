@@ -6,17 +6,37 @@ tags:
   - The Elements of Statistical Learning
   - formula derivation
   - statistical learning
+header-includes:
+    \usepackage{tikz, pgfplots}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CO, CE]{This is fancy}
+    \fancyfoot[CO, CE]{So is this}
+    \fancyfoot[LEM RO]{\thepage}
 ---
 
-\section{Introduction}
+Just say hello!
+===============
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
+This could be a good example or inlined \LaTeX:
 
-Headings are cool
-======
+\begin{tikzpicture}
+\begin{axis}
+\addplot[color=red]{exp(x)};
+\end{axis}
+\end{tikzpicture}
+%Here ends the furst plot
+\hskip 5pt
+%Here begins the 3d plot
+\begin{tikzpicture}
+\begin{axis}
+\addplot3[
+    surf,
+]
+{exp(-x^2-y^2)*x};
+\end{axis}
+\end{tikzpicture}
 
-You can have many headings
-======
+And now, just a few words to terminate:
 
-Aren't headings cool?
-------
+> Goodbye folks!
