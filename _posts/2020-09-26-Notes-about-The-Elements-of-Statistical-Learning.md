@@ -17,7 +17,7 @@ header-includes:
 
 ### Statistical Decision Theory
 
-Let $X \in {\rm I\!R}$ denote a real valued random input vector, and $Y \in {\rm I\!R}$ a real valued random output variable, with joint distribution $Pr(X, Y)$. We seek a function $f(X)$ for predicting $Y$ given values of the input $X$.
+Let $X \in \boldsymbol{R}$ denote a real valued random input vector, and $Y \in \boldsymbol{R}$ a real valued random output variable, with joint distribution $Pr(X, Y)$. We seek a function $f(X)$ for predicting $Y$ given values of the input $X$. For the loss function 
 
 \begin{equation}
 
