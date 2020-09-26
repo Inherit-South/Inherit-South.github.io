@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jinan Zhang / Personal Page"
+title                    : "Jinan Zhang"
 title_separator          : "-"
 name                     : &name "Jinan Zhang"
 description              : &description "A Statistics undergraduate hoping for a PhD"
