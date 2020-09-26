@@ -10,10 +10,7 @@ header-includes:
     \usepackage{tikz, pgfplots}
 ---
 
-Just say hello!
-===============
-
-This could be a good example or inlined \LaTeX:
+\section{Introduction}
 
 \begin{equation}
 a = b^2
